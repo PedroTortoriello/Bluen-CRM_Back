@@ -10,7 +10,7 @@ const app = express();
 
 // Middleware para CORS
 const corsOptions = {
-  origin: ['http://localhost:3000', 'https://bluen-crm.onrender.com'],
+  origin: ['http://localhost:3000', 'https://bluensdr.onrender.com'],
   credentials: true, // Permite o envio de cookies e cabeçalhos de autorização
   allowedHeaders: ['Authorization', 'Content-Type'],
 };
